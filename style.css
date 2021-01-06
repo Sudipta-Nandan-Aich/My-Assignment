@@ -9,9 +9,9 @@
 }
 h1{
     font-size : 80px;
+    line-height : 18px;
     font-weight :normal;
     color : #364958;
-    line-height : 20px;
     font-family: 'Bebas Neue', cursive;
 }
 h2{
@@ -29,34 +29,36 @@ h3{
 
 
 
-
-.navigation-bar a{
-    text-decoration: none;
-    font-weight:700;
-    font-size: 16px;
-    color : rgb(39, 38, 38);
-    font-family: 'Poppins', sans-serif;
-    float : right;
-    padding : 20px;
-}
-.navigation-bar li{
-    list-style: none;
-}
 .navigation-bar{
     margin-left: 8%;
     margin-right: 8%;
     padding-bottom: 80px;
 }
 
+.navigation-bar a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:700;
+    color : rgb(39, 38, 38);
+    font-family: 'Poppins', sans-serif;
+    padding : 18px;
+    float : right;
+    
+}
+.navigation-bar li{
+    list-style: none;
+}
 
 
 
-.orange-highlighter{
+
+
+.name-highlighter{
     color :#FF8367;
 }
 body p{
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     color: #3E3E3E;
     font-size :20px;
 }
@@ -65,10 +67,11 @@ body p{
     text-decoration: none;
     font-weight : 700;
     font-size :16px;
-    background-image: linear-gradient(45deg,#F46060,#f04c4c);
-    padding: 18px 50px;
-    border-radius: 10px;
     color: white;
+    background-image: linear-gradient(45deg,#F46060,#f16413);
+    padding: 18px 50px;
+    border-radius: 5px;
+    
 }
 .half-width{
     width: 45%;
@@ -79,19 +82,19 @@ body p{
     width: 80%;
 }
 section{
-    height: 500px;
-    padding-bottom : 100px;
+    height: 400px;
+    padding-bottom : 50px;
 }
 
 
 
 
 
-.project-area{
+.project-site{
     height: 1000px;
     background-color: #F8F9FC;
 }
-.project-area h2{
+.project-site h2{
     padding: 5%;
     text-align: center;
     color: #363958;
@@ -100,15 +103,15 @@ section{
     color : #F46060;
 }
 
-.single-project img{
+.my-project img{
     width: 100%;
 }
-.single-project{
+.my-project{
     height: 450px;
     width: 29%;
     background-color: white;
-    box-shadow:8px 8px 80px gray;
-    border-radius: 20px;
+    box-shadow:8px 8px 80px rgb(192, 192, 192);
+    border-radius: 18px;
     padding: 2%;
     margin: 5px;
 }
@@ -117,37 +120,37 @@ section{
     margin-right: 8%;
     display: flex;
 }
-.single-project p{
+.my-project p{
     color: #6C6C6C;
     font-weight: 700;
 }
 
-.Style-services{
-    text-align: center;
+#style-services{
+    
     background-image: linear-gradient(45deg,#8379ee, #241893 );;
     color: rgb(255, 255, 255);
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 45%;
+    margin-right: 40%;
+    padding-left: 2%;
+    padding-right: 2%;
     font-size: 40px;
 }
 .service{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 80%;
-    padding: 15px;
-    margin-left: 10px;
-
-    
+    height: 95%;
+    width: 40%;
+    padding: 2%;
+    margin-left: 50px;
+    margin-right: 10px;
     background-color: white;
+    
 
 
 
 }
-.lower-banner{
-    background-image: url("Images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position:left ;
-}
+
+
  #website{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, cyan,blue);
@@ -161,8 +164,6 @@ section{
      border-image-slice:1;
 
  }
-
-
 
 
 .bottom-section{
