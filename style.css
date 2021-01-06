@@ -9,7 +9,7 @@
 }
 h1{
     font-size : 80px;
-    line-height : 18px;
+    line-height : 20px;
     font-weight :normal;
     color : #364958;
     font-family: 'Bebas Neue', cursive;
@@ -41,7 +41,7 @@ h3{
     font-weight:700;
     color : rgb(39, 38, 38);
     font-family: 'Poppins', sans-serif;
-    padding : 18px;
+    padding : 20px;
     float : right;
     
 }
@@ -50,15 +50,12 @@ h3{
 }
 
 
-
-
-
 .name-highlighter{
     color :#FF8367;
 }
 body p{
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     color: #3E3E3E;
     font-size :20px;
 }
@@ -70,7 +67,7 @@ body p{
     color: white;
     background-image: linear-gradient(45deg,#F46060,#f16413);
     padding: 18px 50px;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 .half-width{
@@ -82,8 +79,8 @@ body p{
     width: 80%;
 }
 section{
-    height: 400px;
-    padding-bottom : 50px;
+    height: 500px;
+    padding-bottom : 100px;
 }
 
 
@@ -111,9 +108,9 @@ section{
     width: 29%;
     background-color: white;
     box-shadow:8px 8px 80px rgb(192, 192, 192);
-    border-radius: 18px;
+    border-radius: 20px;
     padding: 2%;
-    margin: 5px;
+    margin: 20px;
 }
 .one-third-width{
     margin-left: 8%;
@@ -125,20 +122,22 @@ section{
     font-weight: 700;
 }
 
+
 #style-services{
     
     background-image: linear-gradient(45deg,#8379ee, #241893 );;
     color: rgb(255, 255, 255);
-    margin-left: 45%;
+    margin-left: 40%;
     margin-right: 40%;
     padding-left: 2%;
     padding-right: 2%;
     font-size: 40px;
+    margin-bottom: %;
 }
 .service{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 95%;
+    height: 85%;
     width: 40%;
     padding: 2%;
     margin-left: 50px;
@@ -146,10 +145,7 @@ section{
     background-color: white;
     
 
-
-
 }
-
 
  #website{
     border-left: 7px solid;
@@ -166,27 +162,41 @@ section{
  }
 
 
+
+
+
+
+
+
+
 .bottom-section{
-    height: 200px;
-    padding-top: 150px;
+    height: 50px;
+    padding-top: 300px;
     margin-left: 25%;
     margin-right: 25%;
 }
 .bottom-section img{
     position: absolute;
     width: 50%;
+    
+    
 }
-.bottom-section h1{
+.bottom-section span{
     float: left;
-    padding: 5%;
+    padding: 4%;
+    padding-top: 10%;
     position: relative;
-    color: white;
-    font-weight: normal;
+    color: rgb(247, 247, 247);
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    
 }
 .bottom-section a{
     margin:10%;
     position: relative;
     float: right;
+    
+    
 }
 footer{
     text-align: center;
@@ -196,6 +206,7 @@ footer p{
     color: #363958;
     font-family: 'Bebas Neue', cursive;
     padding-bottom: 0;
+    margin-top: 5%;
 }
 footer img{
     margin-left: 1%;
