@@ -34,7 +34,7 @@ h3{
     text-decoration: none;
     font-weight:700;
     font-size: 16px;
-    color : black;
+    color : rgb(39, 38, 38);
     font-family: 'Poppins', sans-serif;
     float : right;
     padding : 20px;
@@ -65,7 +65,7 @@ body p{
     text-decoration: none;
     font-weight : 700;
     font-size :16px;
-    background-image: linear-gradient(45deg,mediumvioletred,deeppink);
+    background-image: linear-gradient(45deg,#F46060,#f04c4c);
     padding: 18px 50px;
     border-radius: 10px;
     color: white;
@@ -110,7 +110,7 @@ section{
     box-shadow:8px 8px 80px gray;
     border-radius: 20px;
     padding: 2%;
-    margin: 20px;
+    margin: 5px;
 }
 .one-third-width{
     margin-left: 8%;
@@ -122,10 +122,45 @@ section{
     font-weight: 700;
 }
 
+.Style-services{
+    text-align: center;
+    background-image: linear-gradient(45deg,#8379ee, #241893 );;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 40px;
+}
+.service{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    padding: 15px;
+    margin-left: 10px;
+
+    
+    background-color: white;
 
 
 
+}
+.lower-banner{
+    background-image: url("Images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+ #website{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, cyan,blue);
+    border-image-slice:1;
 
+ }
+
+ #digital{
+     border-left: 7px solid;
+     border-image: linear-gradient(180deg, blue,cyan);
+     border-image-slice:1;
+
+ }
 
 
 
@@ -165,3 +200,7 @@ footer img{
     margin-left: 1%;
     width: 2%;
 }
+
+
+
+
